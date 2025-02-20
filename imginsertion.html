@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Img1</p>
+    <input type="file" id="hello1">
+
+    <script>
+        let img = document.getElementById("hello1");
+        let files = img.files[0];
+
+        const reader = new FileReader();
+        reader.readAsDataURL(files);
+        reader.onload = () =>{
+            let result = reader.result;
+
+            
+        }
+    </script>
+</body>
+</html>

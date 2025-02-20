@@ -193,3 +193,6 @@ addTocart.addEventListener('click', addingToCart);
 
 
 
+document.addEventListener("DOMContentLoaded",()=>{
+  document.getElementById("itemName").textContent = "hello world"
+})

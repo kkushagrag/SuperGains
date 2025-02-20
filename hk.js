@@ -30,21 +30,31 @@ function createButton(event){
 }
 
 
-function successfulPayment(event){
+// function successfulPayment(event){
     
-    var body = document.getElementById("grid");
+//     var body = document.getElementById("grid");
 
-    body.remove();
+//     body.remove();
 
-    var image11 = document.createElement("img");
-    image11.setAttribute("src","https://help.squadlocker.com/servlet/rtaImage?eid=ka03u000000xYdP&feoid=00N3u00000PV8rn&refid=0EM3u000002bXCJ");
-    image11.setAttribute("id","image11");
+//     var image11 = document.createElement("img");
+//     image11.setAttribute("src","https://help.squadlocker.com/servlet/rtaImage?eid=ka03u000000xYdP&feoid=00N3u00000PV8rn&refid=0EM3u000002bXCJ");
+//     image11.setAttribute("id","image11");
 
-    var container = document.getElementById("cont");
-    container.append(image11);
+//     var container = document.getElementById("cont");
+//     container.append(image11);
 
-    alert("Payment Completed Successfully");
+//     alert("Payment Completed Successfully");
 
+// }
+
+function selectPaymentMethod(method) {
+    // Hide all payment details sections
+    document.getElementById('upiDetails').style.display = 'none';
+    document.getElementById('walletDetails').style.display = 'none';
+    document.getElementById('codDetails').style.display = 'none';   
+
+    // Show the selected payment details section
+    document.getElementById(`${method}Details`).style.display = 'block';
 }
 
 
@@ -70,3 +80,4 @@ addressData.address;
 
 document.getElementById('div32').textContent = 
 addressData.mobile;
+
