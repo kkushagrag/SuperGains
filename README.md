@@ -31,7 +31,7 @@ As India's largest nutrition platform, HealthKart offers a wide range of supplem
 | 3 | Now to increase quantity you can click "+" symbol and to decrease the same click "-" and click "Add to cart" so the item will be added to your cart|
 | 4 | To go cart page hover on cart icon at right corner and click "Proceed to cart" button, then change quantity by selecting "Quantity" option and to remove item from your cart click delete icon and click "Proceed to pay" for payment feature and follow the same|
 
-  So it was a great experience to us while building this task we have learnt so many new concepts and how to apply tech-tools whatever we have learnt in our current unit. The project covers basic front end designs up to a certain level and showcasing basic functionality like signup, signin, product viewing, adding it to cart then finally placing order by filling address details and making successful payment. I greatly thankful to my instructor *Swanand Kadam* and also instructor associate *Kamal* for guiding us which helpled me to feel confident and work upon the project and to complete within the specified time period.
+  So it was a great experience to us while building this task we have learnt so many new concepts and how to apply tech-tools whatever we have learnt in our current unit. The project covers basic front end designs up to a certain level and showcasing basic functionality like signup, signin, product viewing, adding it to cart then finally placing order by filling address details and making successful payment. 
   
 
 
